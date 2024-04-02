@@ -76,7 +76,7 @@ const App: React.FC = () => {
       </Form.Item>
       <Form.Item style={{padding: "15px 0 10px"}}>
         <Button type="primary" htmlType="submit" className="login-form-button" onClick={() => console.log(localStorage.getItem("data"))}>
-          Войти
+          Зарегистрироваться
         </Button>
           <i style={{padding: '5px'}}> Уже есть аккаунт?  </i> <a href="/login">Войти </a>
       </Form.Item>
