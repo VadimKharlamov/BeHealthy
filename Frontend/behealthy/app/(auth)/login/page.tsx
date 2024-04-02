@@ -69,7 +69,7 @@ const App: React.FC = () => {
         <Button type="primary" htmlType="submit" className="login-form-button">
           Войти
         </Button>
-          <i style={{padding: '5px'}}> Нет аккаунта?  </i> <a href="/register">Зарегестрироваться </a>
+          <i style={{padding: '5px'}}> Нет аккаунта?  </i> <a href="/register">Зарегистрироваться </a>
       </Form.Item>
     </Form>
     </div>
